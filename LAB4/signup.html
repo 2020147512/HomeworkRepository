@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to internet-programming shop</h1>
+    </header>
+    <div class="signup">
+      <a href="login.html"><span>로그인</span></a>
+      <span>회원가입</span>
+      <a href="index.html">메인페이지</a>
+    </div>
+    <form>
+      <label>
+        이름:
+        <input
+          name="username"
+          type="text"
+          placeholder="이름을 입력하세요"
+          autofocus
+        />
+      </label>
+      <label>
+        생일:
+        <input name="birthday" type="date" required />
+      </label>
+      <label>
+        전화번호:
+        <input
+          type="tel"
+          pattern="\(\d{3}\) +\d{4} - \d{4}"
+          placeholder="(###) ####-####"
+        />
+      </label>
+      <label>
+        아이디:
+        <input
+          name="id"
+          type="text"
+          placeholder="아이디를 입력하세요"
+          autocomplete="on"
+        />
+      </label>
+      <label>
+        비밀번호:
+        <input type="password" placeholder="비밀번호를 입력하세요" />
+      </label>
+      <div>
+        <input name="Signup" type="submit" value="Signup" />
+      </div>
+    </form>
+  </body>
+</html>

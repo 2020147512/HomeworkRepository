@@ -1,0 +1,74 @@
+[
+  {
+    "name" : "dot bag",
+    "price" : 1580000,
+    "image" : "dot_bag.jpg",
+    "type" : "bag"
+  },
+  {
+    "name" : "half_wallet",
+    "price" : 650000,
+    "image" : "half.jpg",
+    "type" : "wallet"
+  },
+  {
+    "name" : "loafers",
+    "price" : 1230000,
+    "image" : "loafers.jpg",
+    "type" : "shoes"
+  },
+  {
+    "name" : "slides",
+    "price" : 960000,
+    "image" : "slides.jpg",
+    "type" : "shoes"
+  },
+  {
+    "name" : "shoulder bag",
+    "price" : 3100000,
+    "image" : "shoulder_bag.jpg",
+    "type" : "bag"
+  },
+  {
+    "name" : "card holder",
+    "price" : 560000,
+    "image" : "card.jpg",
+    "type" : "wallet"
+  },
+  {
+    "name" : "hobo bag",
+    "price" : 1040000,
+    "image" : "hobo_bag.jpg",
+    "type" : "bag"
+  },
+  {
+    "name" : "pumps",
+    "price" : 1230000,
+    "image" : "pumps.jpg",
+    "type" : "shoes"
+  },
+  {
+    "name" : "sneakers",
+    "price" : 1140000,
+    "image" : "sneakers.jpg",
+    "type" : "shoes"
+  },
+  {
+    "name" : "middle wallet",
+    "price" : 930000,
+    "image" : "middle.jpg",
+    "type" : "wallet"
+  },
+  {
+    "name" : "long wallet",
+    "price" : 1040000,
+    "image" : "long.jpg",
+    "type" : "wallet"
+  },
+  {
+    "name" : "renylon_bag",
+    "price" : 940000,
+    "image" : "renylon.jpg",
+    "type" : "bag"
+  }
+]
