@@ -7,7 +7,7 @@ fetch("product.json")
           initialize(products);
         })
         .catch(function (err) {
-          console.log("Fetch problem: " + err.message);
+          console.log("Problem: " + err.message);
         });
 
 function initialize(products) {
@@ -77,8 +77,8 @@ function initialize(products) {
           }
 
           if (finalGroup.length === 0) {
-            const para = document.createElement("p");
-            para.textContent = "No results to display!";
+            const para = document.createElement("h1");
+            para.textContent = "No items to display";
             main.appendChild(para);
 
           } else {
